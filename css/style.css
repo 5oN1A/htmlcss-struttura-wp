@@ -34,23 +34,26 @@ nav {
 
 main {
     width: 100%;
+    background-color: #0586fd;
 }
 
 .title {
     height: 60px;
     background-color: #abcfe7;
+    margin-bottom: 15px;
 }
 
 aside { 
     width: 20%;
     height: 350px;
     background-color: #abcfe7;
-    border: 1px solid;
+    margin-bottom: 15px;
+
 }
 section {
-    width: 60%;
+    width: calc(60% - (15px * 2));
     height: 350px;
     background-color: #abcfe7;
-    border: 1px solid;
+    margin: 0px 15px 15px;
 
 }
