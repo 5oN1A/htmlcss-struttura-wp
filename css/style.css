@@ -10,7 +10,11 @@
     clear: both;
 }
 
-.main-container {
+.float {
+    float: left;
+}
+
+.container {
     width: 920px;
     margin: 20px auto;
 }
@@ -28,3 +32,25 @@ nav {
     margin: 20px 0;
 }
 
+main {
+    width: 100%;
+}
+
+.title {
+    height: 60px;
+    background-color: #abcfe7;
+}
+
+aside { 
+    width: 20%;
+    height: 350px;
+    background-color: #abcfe7;
+    border: 1px solid;
+}
+section {
+    width: 60%;
+    height: 350px;
+    background-color: #abcfe7;
+    border: 1px solid;
+
+}
